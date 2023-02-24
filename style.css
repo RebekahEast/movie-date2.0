@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+* {
+    font-family: barlow condensed;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(192, 236, 255);
+}
+
+.large-top {
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .large-top {
+        display: block;
+    }
+    .input {
+        width: 88%;
+    }
+  }
+
+#best-movies {
+    font-size: 22px;
+}
+
+.box {
+    background-color: rgb(198, 198, 198);
+    color: rgb(22, 76, 99);
+    border: 4px solid rgb(22, 76, 99);
+    margin-top: 30px;
+    margin-left: 1%;
+    padding: 1% 5% 1% 5%;
+    border-radius: 50px;
+}
+
+input {
+    width: 28%;
+    border: 1px solid rgb(22, 76, 99);
+    border-radius: 4px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(22, 76, 99);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+#send {
+    margin-top: 10px;  
+    margin-bottom: 5px; 
+    color: white;
+    border: solid black 1px;
+    padding: 3px;
+    width: 30%;
+    background-color: rgb(22, 76, 99);
+    font-size: 15px;
+}
+
+#words {
+    padding: 20px;
+    margin: 0 auto;
+}
+
